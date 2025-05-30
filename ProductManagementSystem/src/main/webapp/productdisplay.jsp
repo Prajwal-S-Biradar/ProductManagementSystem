@@ -51,7 +51,7 @@
     </style>
 </head>
 <body>
-    <h2>Product List</h2>
+    <h2>Product List</h2> 
 
     <%
         @SuppressWarnings("unchecked")
