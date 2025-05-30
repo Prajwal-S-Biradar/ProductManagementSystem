@@ -42,7 +42,7 @@
         }
         a {
             color: #007BFF;
-            text-decoration: none;
+            text-decoration: none; 
             font-weight: bold;
         }
         a:hover {
