@@ -53,7 +53,7 @@ Price DECIMAL(10,2),
 Quantity INT
 );
 ```
-
+ 
 ---
 
 ## 📋 Prerequisites
