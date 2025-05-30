@@ -1,189 +1,147 @@
-# HotelManagementSystem
----
-
-🚀 Features
-
-Complete CRUD Operations
-
-Add, update, delete, and view guest reservations seamlessly.
-
-Advanced Search
-
-Quickly search reservation records by Guest ID or Booking Number.
-
-Comprehensive Reports
-
-Generate meaningful reports, including:
-
-📈 Guests with bookings above a specified duration
-
-📚 Guests who booked specific room types
-
-🏆 Top N most frequent guests or highest revenue-generating bookings
+Here's a revised version of your content tailored for a **Product Management System** while preserving the structure, features, and presentation style:
 
 ---
 
-Input Validation
+# ProductManagementSystem
 
-✅ Client-side (HTML5, JavaScript)
+🚀 **Features**
 
-✅ Server-side (JSP/Java)
+### 🔄 Complete CRUD Operations
 
-Professional UI
+Add, update, delete, and view product records with ease.
 
-Responsive, user-friendly interface built with Bootstrap 5
+### 🔍 Advanced Search
 
-Smooth navigation and colorful, clean layouts
+Quickly search product entries by Product ID or Category.
 
-Modular design using JSP (View), Servlets (Controller), and JDBC/MySQL (Model)
+### 📊 Comprehensive Reports
 
-Database Integration
+Generate insightful reports, including:
 
-MySQL backend with JDBC connection pooling
+* 📈 Products with low or high stock levels
+* 📚 Products filtered by category or price range
+* 🏆 Top N best-selling or highest revenue-generating products
 
 ---
-🗃️ Database Schema
 
-CREATE TABLE Reservations (
+## ✅ Input Validation
 
- ReservationID INT PRIMARY KEY,
- 
- CustomerName VARCHAR(100),
- 
- RoomNumber VARCHAR(10),
- 
- CheckIn DATE,
- 
- CheckOut DATE,
- 
- TotalAmount DECIMAL(10,2)
- 
+* **Client-side**: HTML5, JavaScript
+* **Server-side**: JSP/Java
+
+---
+
+## 🎨 Professional UI
+
+* Responsive and intuitive interface built with Bootstrap 5
+* Smooth navigation and clean, colorful layouts
+* Modular design using JSP (View), Servlets (Controller), and JDBC/MySQL (Model)
+
+---
+
+## 🗃️ Database Integration
+
+* MySQL backend with efficient JDBC connection pooling
+
+---
+
+### 🗃️ Database Schema
+
+```sql
+CREATE TABLE Products (
+ProductID INT PRIMARY KEY,
+ProductName VARCHAR(100),
+Category VARCHAR(50),
+Price DECIMAL(10,2),
+Quantity INT
 );
+```
 
 ---
 
-📋 Prerequisites
+## 📋 Prerequisites
 
 Ensure the following software is installed before running the project:
 
-Java Development Kit (JDK 8 or higher)
-
-Apache Tomcat (9.0 or higher)
-
-MySQL Server or XAMPP
-
-MySQL JDBC Driver (mysql-connector-java)
-
-Web Browser: Chrome, Firefox, or Edge
+* Java Development Kit (JDK 8 or higher)
+* Apache Tomcat (9.0 or higher)
+* MySQL Server or XAMPP
+* MySQL JDBC Driver (`mysql-connector-java`)
+* Modern Web Browser: Chrome, Firefox, or Edge
 
 ---
 
-| Module Name              | Description                                                   |
-| ------------------------ | ------------------------------------------------------------- |
-| `ReservationAdd.jsp`     | Add new guest reservations                                    |
-| `ReservationUpdate.jsp`  | Update details of existing reservations                       |
-| `ReservationDelete.jsp`  | Delete a guest’s reservation record                           |
-| `ReservationDisplay.jsp` | View all reservations or search by Guest ID or Booking Number |
-| `ReservationReports.jsp` | Generate dynamic reports                                      |
+| Module Name          | Description                                           |
+| -------------------- | ----------------------------------------------------- |
+| `ProductAdd.jsp`     | Add new products                                      |
+| `ProductUpdate.jsp`  | Update details of existing products                   |
+| `ProductDelete.jsp`  | Delete a product record                               |
+| `ProductDisplay.jsp` | View all products or search by Product ID or Category |
+| `ProductReports.jsp` | Generate dynamic inventory and sales reports          |
 
 ---
 
-🎨 UI Highlights
+## 🎨 UI Highlights
 
-Clean layout using Bootstrap cards & tables
-
-Color-coded buttons for actions (Add, Update, Delete)
-
-Real-time form feedback and hover effects
-
-Consistent font and spacing (Google Fonts – Poppins)
+* Clean layout using Bootstrap cards & tables
+* Color-coded buttons for key actions (Add, Update, Delete)
+* Real-time form feedback and hover effects
+* Consistent font and spacing (Google Fonts – Poppins)
 
 ---
 
-🔧 Technologies Used
+## 🔧 Technologies Used
 
-Frontend: HTML, CSS, JSP, Bootstrap
+* **Frontend**: HTML, CSS, JSP, Bootstrap
+* **Backend**: Java (Servlets/JSP), JDBC
+* **Database**: MySQL
+* **Server**: Apache Tomcat
 
-Backend: Java (Servlets/JSP), JDBC
+---
 
-Database: MySQL
-
-Server: Apache Tomcat
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Project Structure:
-
-HotelWebApp/
-
+## 🗂️ Project Structure
+ProductWebApp/
 ├── WebContent/
-
 │ ├── index.jsp
-
-│ ├── reservationadd.jsp
-
-│ ├── reservationupdate.jsp
-
-│ ├── reservationdelete.jsp
-
-│ ├── reservationdisplay.jsp
-
+│ ├── productadd.jsp
+│ ├── productupdate.jsp
+│ ├── productdelete.jsp
+│ ├── productdisplay.jsp
 │ ├── reports.jsp
-
 │ ├── report_form.jsp
-
 │ └── report_result.jsp
-
 ├── src/
-
 │ ├── com/
-
 │ ├── dao/
-
-│ │ └── ReservationDAO.java
-
+│ │ └── ProductDAO.java
 │ ├── model/
-
-│ │ └── Reservation.java
-
+│ │ └── Product.java
 │ └── servlet/
-
-│ ├── AddReservationServlet.java
-
-│ ├── UpdateReservationServlet.java
-
-│ ├── DeleteReservationServlet.java
-
-│ ├── DisplayReservationsServlet.java
-
+│ ├── AddProductServlet.java
+│ ├── UpdateProductServlet.java
+│ ├── DeleteProductServlet.java
+│ ├── DisplayProductsServlet.java
 │ ├── ReportServlet.java
-
 │ └── ReportCriteriaServlet.java
-
 └── WEB-INF/web.xml
 
-------------------------------------------------------------------------------------------------🖼️ Screenshots
 
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/indexpage.png)
+---
 
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/addreservation.png)
+## 🖼️ Screenshots
 
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation1.png)
+![Home Page](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/indexpage.png)
+![Add Product](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/addreservation.png)
+![Update Product 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation1.png)
+![Update Product 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation2.png)
+![Update Product 3](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation3.png)
+![Delete Product 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation1.png)
+![Delete Product 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation2.png)
+![View Products](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/viewreservation.png)
+![Report 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report1.png)
+![Report 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report2.png)
+![Report 3](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report3.png)
 
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation2.png)
+---
 
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation3.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation1.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation2.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/viewreservation.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report1.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report2.png)
-
-![image alt](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report3.png)
-
-
+Let me know if you'd like a downloadable version (e.g., Markdown or HTML) or if you want help updating the UI/screenshots accordingly!
