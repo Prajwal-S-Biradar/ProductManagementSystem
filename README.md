@@ -141,4 +141,3 @@ ProductWebApp/
 
 ---
 
-Let me know if you'd like a downloadable version (e.g., Markdown or HTML) or if you want help updating the UI/screenshots accordingly!
