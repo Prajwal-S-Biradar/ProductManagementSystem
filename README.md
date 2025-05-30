@@ -1,6 +1,3 @@
-Here's a revised version of your content tailored for a **Product Management System** while preserving the structure, features, and presentation style:
-
----
 
 # ProductManagementSystem
 
@@ -100,30 +97,30 @@ Ensure the following software is installed before running the project:
 ---
 
 ## 🗂️ Project Structure
-ProductWebApp/
-├── WebContent/
-│ ├── index.jsp
-│ ├── productadd.jsp
-│ ├── productupdate.jsp
-│ ├── productdelete.jsp
-│ ├── productdisplay.jsp
-│ ├── reports.jsp
-│ ├── report_form.jsp
-│ └── report_result.jsp
-├── src/
-│ ├── com/
-│ ├── dao/
-│ │ └── ProductDAO.java
-│ ├── model/
-│ │ └── Product.java
-│ └── servlet/
-│ ├── AddProductServlet.java
-│ ├── UpdateProductServlet.java
-│ ├── DeleteProductServlet.java
-│ ├── DisplayProductsServlet.java
-│ ├── ReportServlet.java
-│ └── ReportCriteriaServlet.java
-└── WEB-INF/web.xml
+ProductWebApp/                                        
+├── WebContent/                                                                             
+│ ├── index.jsp                                                
+│ ├── productadd.jsp                                                 
+│ ├── productupdate.jsp                                                           
+│ ├── productdelete.jsp                                            
+│ ├── productdisplay.jsp                                                
+│ ├── reports.jsp                                                                           
+│ ├── report_form.jsp                                                                                   
+│ └── report_result.jsp                                                                                  
+├── src/                                                                                                    
+│ ├── com/                                                                                 
+│ ├── dao/                                                                 
+│ │ └── ProductDAO.java                                                                    
+│ ├── model/                                                                        
+│ │ └── Product.java                                                                             
+│ └── servlet/                                                      
+│ ├── AddProductServlet.java                                                                            
+│ ├── UpdateProductServlet.java                                       
+│ ├── DeleteProductServlet.java                                                            
+│ ├── DisplayProductsServlet.java                                                                  
+│ ├── ReportServlet.java                                                         
+│ └── ReportCriteriaServlet.java                                                    
+└── WEB-INF/web.xml                                                                          
 
 
 ---
