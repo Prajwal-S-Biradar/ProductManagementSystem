@@ -160,7 +160,7 @@
                 <input type="reset" value="Reset" />
             </div>
         </form>
-    </div>
+    </div> 
 
     <script>
         function validateUpdateForm() {
