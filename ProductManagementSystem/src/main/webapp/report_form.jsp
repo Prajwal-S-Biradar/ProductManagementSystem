@@ -113,7 +113,7 @@
                 <option value="price">Products with Price Greater Than</option>
                 <option value="category">Products in Specific Category</option>
                 <option value="topN">Top N Products by Quantity</option>
-            </select>
+            </select> 
 
             <div id="priceInput">
                 <label>Enter Minimum Price:</label>
