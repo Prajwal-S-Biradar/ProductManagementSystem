@@ -127,17 +127,13 @@ ProductWebApp/
 
 ## 🖼️ Screenshots
 
-![Home Page](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/indexpage.png)
-![Add Product](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/addreservation.png)
-![Update Product 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation1.png)
-![Update Product 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation2.png)
-![Update Product 3](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/updatereservation3.png)
-![Delete Product 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation1.png)
-![Delete Product 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/cancelreservation2.png)
-![View Products](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/viewreservation.png)
-![Report 1](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report1.png)
-![Report 2](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report2.png)
-![Report 3](https://github.com/raghavendrapkarjagi/HotelManagementSystem/blob/main/output_screenshot/report3.png)
+![index](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/index.png)
+![add product](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/add%20product.png)
+![update product ](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/update%20product.png)
+![delete product ](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/delete%20product.png)
+![Product list](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/product%20list.png)
+![report result 1](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/report%20result%201.png)
+![report result 2](https://github.com/Prajwal-S-Biradar/ProductManagementSystem/blob/main/output/report%20result%202.png)
 
 ---
 
